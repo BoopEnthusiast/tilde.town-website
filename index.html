@@ -5,18 +5,54 @@
         <title>Boop's ~</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="./index.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
     <body>
-        <div class="">
-        <h1>Hello tilde.town!</h1>
-        <p>I'm boop, come boop me at .boop. on Discord</p>
-        <p>My main website is <a href="https://boop.website">boop.website</a></p>
-        <p>I'm currently working on <a href="https://boop.cool">boop.cool</a>, so I'll work on this after that</p>
-        <p>Let me know any ideas you have for things to add to my site!</p>
-        <p>I'm thinking of using three.js~</p>
-        </div>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <main class="">
+            <h1>Hello tilde.town!</h1>
+            <p>I'm boop, come boop me at .boop. on Discord</p>
+            <p>My main website is <a href="https://boop.website">boop.website</a></p>
+            <p>I'm working on another website, it'll be listed on <a href="https://boop.cool">boop.cool</a>.</p>
+            <p>Let me know any ideas you have for things to add to my site!</p>
+            <p>Here's a list of some cool music I like: (sorry it's all spotify links)</p>
+            <div id="markdown-content"></div>
+        </main>
+        <script>
+            document.getElementById('markdown-content').innerHTML =
+            marked.parse(`
+### Music You've Never Heard
+- [Femboy by Pandaraps](https://open.spotify.com/album/0nLyUS7ODPQ3PfjXB4XwV0?si=rQ7O-Z8tSCGNViSXrSegoQ) **Lofi Rap** (my favorite)
+- [Kill Me While I'm Driving by Is Our Children Learning](https://open.spotify.com/album/5WCMhEBcFS5AuMNYVcCXOe?si=eQjYlWEiSt62xbSNUptrrw) GOOD Rock
+-  [2 Senpais 1 Plan by Yirsi](https://open.spotify.com/album/0amZlvU8HPPeHs8smSizJR?si=i9v1TfbuSFeO-PJuo5PHWQ) Meme Rap
+- [I didn't Come To Bali To Cry by Dante Knows](https://open.spotify.com/album/4fjZflQemzBRY6cAHotxxQ?si=Il1QS_8XSI2cYbRBkwAWZg) Cool Hard Rock Shit
+- [Eating Me Alive by foamboy](https://open.spotify.com/album/0DQzRH23fb9Cf01H3ARMB5?si=6JPWSyrhSxyQSLzi7EVq4Q) Idk like good chill pop-y stuff
+- [YUMMY2GUMMY by Meltycanon](https://open.spotify.com/album/4DXY70lOUyisppYJardiG4?si=2OP8vGq7T6K6L1PRInXRMA) Breakcore
+- [虹 by ZeWei](https://open.spotify.com/album/3sJX8RI2bPzyq4NrMICPk9?si=9ceFYp9iQleCZRRffLceyg) Electronic, not the best but has heart, worth looking into ZeWei
+- [Pit Stop On Earth](https://open.spotify.com/album/2iLJ2vOZCBtkWH0jWnmLc5?si=_DHZp6mNSMONDtYrrYocAQ) Lofi Rap
+### Music I LOVE
+- [Femboy by Pandaraps](https://open.spotify.com/album/0nLyUS7ODPQ3PfjXB4XwV0?si=rQ7O-Z8tSCGNViSXrSegoQ)
+- [The Modern Western World by Vansire](https://open.spotify.com/album/1PzNv0eCsRTtdxWlOiX3kM?si=cd3aba23b04549b6)
+- [The Girl, the Cat and the Tree by LAUSSE THE CAT](https://open.spotify.com/album/1AcEefqM581yXb7fo0YFyx?si=b9e82d2df24b497b)
+- [Reaching for a Star by potsu](https://open.spotify.com/album/1jAaCmcK0JWew4QVPcDgXa?si=V3awOSO_R_mwSuNIm5UbSw)
+- [the first glass beach album by glass beach](https://open.spotify.com/album/5GOoswCqZQiq9gbjSHkzMq?si=zrNX4jtETCKfpYBeQsjWkQ)
+- [(GHOST_WORM) by bye2](https://open.spotify.com/album/0zAvPv9Ik4WMhktZUczQxQ?si=6715164d109e47e6)
+- [Roy Pablo by boy pablo](https://open.spotify.com/album/7FbqHo4R5Fozus5sDwSUs9?si=89753f6351154f92)
+- [hypochondriac by brakence](https://open.spotify.com/album/6XV76W17coHAKFdeyiGT08?si=68ce562529694b66)
+- [Xin's Disappearance by Nix Northwest](https://open.spotify.com/album/4QWp8cFjGnWUuMzVGe5tXH?si=4f7e1b75b8dc4d92)
+- [PUNK TACTICS by Joey Valence & Brae](https://open.spotify.com/album/5L1RkN1nh5m18ZuXCktUbc?si=92d3490a3ea745bb)
+- [Let's Start Here. by Lil Yachty](https://open.spotify.com/album/6Per97deaWqrJlKQNX8RGK?si=ff88398e01644fb9)
+- [Eating Me Alive by foamboy](https://open.spotify.com/album/0DQzRH23fb9Cf01H3ARMB5?si=65713688d2ce4a2f)
+- [Ramona by Kill Bill: The Rapper](https://open.spotify.com/album/2FQKpBA2aLzkgvIV7WwazZ?si=3bcbbf3a64084344) 
+- [Pigeon, Too! by Louie Zong](https://open.spotify.com/album/1AnUkGWhC8CPsxewTcxlvD?si=4465dd61a10849ca)
+- [Splitting by Mr. Tree](https://open.spotify.com/album/36iUk7by3NVgpSAn41aGxC?si=8a2ac7c788fa4520)
+- [THE MOUSE & THE MASK by DANGERDOOM](https://open.spotify.com/album/6vAKENvwUSLMUAWYruV9sw?si=00c908637433421f)
+- [Infinitely Tall by Charlie Burg](https://open.spotify.com/album/5UkdU2EuwWI43isnwU4kZn?si=vCDKvWwgSoq6_BtGHmvuEA)
+- [Sometimes I Might Be Introvert by Little Simz](https://open.spotify.com/album/4nOym5RKE8Opauf3rMxPAW?si=n-qhb613QjyH-z3oW2Z3Ig)
+- [THE SMALL DARK ONE by Lil Darkie](https://open.spotify.com/album/7ga2jjWRieREG9SQe8a9dS?si=1c82b28bd3ea4322)
+- [molecule by torr](https://open.spotify.com/album/1sZhAMSxyVfitDVgv0xFuX?si=6443f75c7d804f1b)
+- [Samsa](https://open.spotify.com/artist/5FN9kuAUamAd4IadVnH4jH?si=6bd1f1a444454710) (more on soundcloud)
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            `);
+        </script>
     </body>
-</html> 
+</html>
